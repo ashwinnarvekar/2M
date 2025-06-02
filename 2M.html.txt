@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy 2 Months, Poornima 💖😘</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', cursive;
+      background: linear-gradient(135deg, #ffd1dc, #ffe4ec);
+      color: #444;
+      text-align: center;
+      min-height: 100vh; /* Ensure body takes full viewport height */
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      padding: 40px 20px;
+      background: #fff0f6;
+      border-bottom: 3px dashed #ffb6c1;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #e75480;
+    }
+    .highlighted-text {
+      font-family: 'Pacifico', cursive;
+    }
+    .message {
+      font-size: 1.2rem;
+      margin: 20px auto;
+      max-width: 600px;
+      line-height: 1.8;
+    }
+    section {
+      padding: 40px 20px;
+      flex-grow: 1; /* Allow sections to grow and fill space */
+    }
+    .reasons {
+      list-style: none;
+      padding: 0;
+      display: flex; /* Use flexbox for reasons list */
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px; /* Gap between reason items */
+    }
+    .reasons li {
+      margin: 0; /* Reset margin as gap handles spacing */
+      background: #fff;
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(255, 182, 193, 0.3);
+      font-weight: bold;
+    }
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap; /* Prevent images from wrapping to the next line */
+      gap: 15px;
+      padding: 0 10px;
+      overflow-x: auto; /* Enable horizontal scrolling if content overflows */
+      -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+      scrollbar-width: none; /* Hide scrollbar for Firefox */
+      -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
+    }
+    /* Hide scrollbar for Chrome, Safari, and Opera */
+    .gallery::-webkit-scrollbar {
+        display: none;
+    }
+
+    .gallery-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-shrink: 0; /* Prevent items from shrinking */
+    }
+
+    .gallery img {
+      width: 220px; /* Increased fixed width for consistency */
+      height: 330px; /* Increased fixed height for consistency (maintaining aspect ratio) */
+      object-fit: cover; /* Crop images to fit the box without distortion */
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .image-tag {
+      margin-top: 8px; /* Space between image and tag */
+      background-color: #ffb6c1; /* Tag background color */
+      color: white;
+      padding: 5px 10px;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      font-weight: bold;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    /* Media queries for responsiveness */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+      .message {
+        font-size: 1rem;
+        margin: 15px auto;
+      }
+      .gallery img {
+        width: 200px; /* Slightly smaller width on tablets */
+        height: 300px; /* Proportional height */
+      }
+      .image-tag {
+        font-size: 0.85rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header {
+        padding: 20px 10px;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+      .message {
+        font-size: 0.9rem;
+        margin: 10px auto;
+      }
+      .reasons li {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+      }
+      .gallery img {
+        width: 170px; /* Smaller width on mobile */
+        height: 255px; /* Proportional height */
+      }
+      .image-tag {
+        font-size: 0.8rem;
+      }
+      .surprise-btn {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+      }
+      .hidden-message {
+        font-size: 1rem;
+      }
+    }
+
+    .surprise-btn {
+      background: #e75480;
+      color: white;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 30px;
+      transition: 0.3s;
+    }
+    .surprise-btn:hover {
+      background: #ff6fa1;
+      transform: translateY(-2px); /* Slight lift on hover */
+      box-shadow: 0 4px 8px rgba(231, 84, 128, 0.4);
+    }
+    .hidden-message {
+      display: none;
+      margin-top: 20px;
+      font-size: 1.2rem;
+      color: #e75480;
+      font-family: 'Indie Flower', cursive;
+      padding: 0 20px; /* Add padding for better readability on small screens */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><span class="highlighted-text">Happy 2nd Month Anniversary, Babyy 💖</span></h1>
+    <p class="message">
+      Poonuu, these 2 months with you have been magical.<br>
+      Your smile is my favorite thing to watch, your voice is my favorite song,<br>
+      and your presence is my peace🤌.<br>
+      Here’s a tiny piece of my heart, wrapped in code 💖
+    </p>
+  </header>
+
+  <section>
+    <h2>Why I Love You 💕
+      (ofc i don't need any reason to love you, but these are some things that I really love about you)
+    </h2>
+    <ul class="reasons">
+      <li>Your cute smile 😍</li>
+      <li>Your kind heart 🥺</li>
+      <li>Your silly jokes 😂</li>
+      <li>The way you say my name 💞</li>
+      <li>Everything about you, really 💘</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Some Sweet Memories 📸</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="https://i.postimg.cc/YqmxXnLp/Whats-App-Image-2025-06-02-at-23-27-05.jpg" alt="Our first meet">
+        <div class="image-tag">Our First Meet</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://i.postimg.cc/X7nKnjpz/Whats-App-Image-2025-06-02-at-23-00-18.jpg" alt="First time I kissed you">
+        <div class="image-tag">First Kiss</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://i.postimg.cc/4yP9YcmF/Whats-App-Image-2025-06-02-at-23-01-00.jpg" alt="Cute Smiles">
+        <div class="image-tag">Cute Smiles</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Click for a Surprise 🎁</h2>
+    <button class="surprise-btn" onclick="document.querySelector('.hidden-message').style.display='block'">Reveal 💌</button>
+    <p class="hidden-message">You're my favorite notification, my favorite hello, and my hardest goodbye. I love you more every day💗 and i can't be more grateful to have you in my life🫶 Once again, I LOVE YOU BABY. </p>
+  </section>
+</body>
+</html>
